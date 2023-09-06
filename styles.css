@@ -7,7 +7,7 @@
 body{
     background-color: #171717;
     color:white;
-    font-family:sans-serif;
+    font-family: "DM Sans", serif;
 }
 .container{
   max-width: 950px;
@@ -15,21 +15,26 @@ body{
 }
 h2{
     margin-top:40px;
-
 }
 header{
   padding-top:16px;
+  display:flex;
 }
 nav{
-    display:inline;
+    display:flex;
     cursor: pointer;
 }
 .navbar{
   margin-top:12px;
 }
+
+h1:hover{
+  text-decoration: underline;
+}
+
 h1 {
     text-align: left;
-    display:inline;
+    display: inline;
     font-size:x-large;
   }
   .why{
@@ -37,28 +42,31 @@ h1 {
     margin-bottom:8.5px;
   }
   .list{
-    float:right;
-    font-size:11px;
+    font-size:15px;
+    padding-left:500px;
+    padding-top:4px;
   }
   ul li {
     list-style: none;
     display: inline-block;
     justify-content:space-between;
-
+  }
+  li:hover{
+    text-decoration: underline;
   }
   li{
     padding-left: 30px;
   }
   .peace{
     padding-top:153px;
-    margin-left:35px;
+    margin-left:30px;
   }
   .img_deg{
     width: 370px;
     height: 383px;
-    float: right;
     padding-right:35px;
-    padding-top:50px
+    padding-top:50px;
+    float:right;
   }
 
   h3{
@@ -79,7 +87,9 @@ h1 {
     text-align:center;
     padding-top:7px;
   }
-  
+  .cv:hover{
+    color:red;
+  }
   h4{
     font-size:7px;
     width: 80px;
@@ -96,6 +106,9 @@ h1 {
   margin-top:150px;
   text-align:center;
 }
+.learn:hover{
+  color:red;
+}
   .latin{
     margin-top:30px;
     text-align:center;
@@ -106,10 +119,12 @@ h1 {
   }
   .object{
     display:flex;
+    flex-direction:row;
     margin-top:70px;
     margin-bottom:40px;
-    justify-content:space-between;
+    gap:125px;
     text-align:center;
+    justify-content:center;
   }
   .six{
     width: 55px;
@@ -129,7 +144,9 @@ h1 {
 }
 #items{
   display:flex;
-  justify-content:space-between;
+  flex-direction:row;
+  gap:170px;
+  justify-content:center;
   margin-top:30px;
 }
 .men{
@@ -138,8 +155,11 @@ h1 {
   height:120px;
   color:#535353;
 }
-.for{
+#items>.men:hover{
   border-bottom:3.8px solid #27AE60;
+  border-left:solid 1px #000000;
+  border-right:solid 1px #000000;
+  border-top:solid 1px #000000;
 }
 .web{
   width: 30px;
@@ -160,13 +180,15 @@ height:5px;
   display:flex;
   justify-content:space-between;
   height:120px;
-  width:930px;
-  margin-top:32px;
+  width:895px;
+  color:white;
+  margin:auto;
 }
 .break{
   margin-top:31px;
   margin-left:31px;
   margin-right:31px;
+  margin-bottom:31px;
 }
 .fake{
   font-size:40px;
@@ -225,13 +247,142 @@ input[type="submit"] {
 background-color:#27AE60;
 width:100px;
 height:32.5px;
-margin-left:384.5px;
+margin-left:420px;
 margin-top:50px;
 color:white;
 font-size:15px;
 border-bottom-style:hidden;
 }
+input[type="submit"]:hover{
+  color:rgb(84, 247, 39);
+  
+}
 .soup{
-margin-top:120px;
-padding-left:420px;
+margin-top:70px;
+padding-left:417px;
+font-size:15px;
+color:#535353;
+margin-bottom:5px;
+}
+.solid{
+  text-align:center;
+  color:#535353;
+  margin-bottom:35px;
+}
+@media only screen and (max-width:600px){
+
+  header{
+    margin:0px;
+      padding:0px;
+  }
+  .navbar{
+    display:block;
+  }
+  .list{
+    font-size:11px;
+    padding-top:9.5px;
+    padding-left: 21.5px;
+  }
+  .img_deg{
+    width:290px;
+    height:320px;
+    padding-right:26px;
+    padding-top:55px;
+    padding-left:0px;
+  }
+  
+  .peace{
+    padding-top:350px;
+    padding-left:30px;
+  }
+  h1{
+    padding-left:125px;
+    font-size:15px;
+  }
+  .second{
+    margin-top:50px;
+  }
+  .latin{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:30px;
+    font-size:9.5px;
+    text-align:justify;
+  }
+  .object{
+    justify-items:center;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    margin-top:40px;
+  }
+  .full{
+    font-size:13.5px;
+  }
+  .here{
+    font-size:12px;
+  }
+  #items{
+    padding-left:77px;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+  }
+  .men{
+    height:130px;
+  }
+  #new{
+    width:180px;
+    height:560px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    margin-left:77px; 
+  }
+
+  #tap{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    padding:0px;
+    margin-left:8px;
+    margin-right:6px;
+  }
+  .int{
+    margin-top:0px;
+    margin-left:0px;
+  }
+  input{
+    width:290px;
+  }
+  #nice{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    padding:0px;
+    margin-left:8px;
+    margin-right:6px;
+  }
+  .other{
+    padding-left:0px;
+  }
+  .game{
+    margin-left:0px;
+    margin-top:20px;
+  }
+  
+  .out{
+    margin-top:20px;
+  } 
+  #message{
+    margin-left:8px;
+    width:290px;
+  }
+  input[type="submit"] {
+    margin-left:95px;
+  }
+  .soup{
+    padding-left:90px;
+    margin-bottom:20px;
+  }
 }
