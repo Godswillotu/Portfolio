@@ -1,4 +1,4 @@
-Hi@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&family=Nova+Square&family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&family=Nova+Square&family=Raleway+Dots&display=swap');
 *{
     margin:0px;
     padding:0px;
@@ -29,7 +29,6 @@ nav{
 }
 
 h1:hover{
- button:hover{
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
@@ -55,7 +54,6 @@ h1 {
     justify-content:space-between;
   }
   li:hover{
-    button:hover{
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
