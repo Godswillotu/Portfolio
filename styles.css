@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&family=Nova+Square&family=Raleway+Dots&display=swap');
+Hi@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&family=Nova+Square&family=Raleway+Dots&display=swap');
 *{
     margin:0px;
     padding:0px;
@@ -379,7 +379,7 @@ margin-bottom:5px;
     width:290px;
   }
   input[type="submit"] {
-    margin-left:95px;
+    margin-left:115px;
   }
   .soup{
     padding-left:90px;
