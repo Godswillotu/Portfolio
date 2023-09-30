@@ -29,7 +29,10 @@ nav{
 }
 
 h1:hover{
-  Color: red;
+ button:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 h1 {
@@ -52,7 +55,10 @@ h1 {
     justify-content:space-between;
   }
   li:hover{
-    color: red;
+    button:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   }
   li{
     padding-left: 30px;
