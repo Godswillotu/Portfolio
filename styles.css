@@ -29,7 +29,7 @@ nav{
 }
 
 h1:hover{
-  color:red;
+  animation: bounce 1s;
 }
 @keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -68,7 +68,7 @@ h1 {
     justify-content:space-between;
   }
   li:hover{
-   color: red;
+   animation: bounce 1s;
   }
   li{
     padding-left: 30px;
